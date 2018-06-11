@@ -1,0 +1,13 @@
+{
+  "status": 0,
+  "expire_date": "2021-01-01",
+  "credit": 15000,
+  "pay_day": 22,
+  "balance": 15000,
+  "enroll_date": "2018-01-01",
+  "cardid": 1112,
+  "password": "202cb962ac59075b964b07152d234b70",
+  "username": "user1",
+  "type": 0,
+  "cardname":"工商银行"
+}
