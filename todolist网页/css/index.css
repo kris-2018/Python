@@ -1,0 +1,128 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    background-color: #cdcdcd;
+}
+
+.header{
+    background: rgba(47,47,47,0.98);
+    height: 50px;
+    line-height: 50;
+}
+#form{
+    width: 600px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#form label{
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    color: #dddddd;
+    font-size: 24px;
+    cursor: pointer;
+}
+#form input{
+    float: right;
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 0.8px rgba(0,0,0,0.4)inset;
+}
+
+.content{
+    width: 600px;
+    margin: 20px auto;
+    line-height: 40px;
+}
+h2{
+    position: relative;
+    margin: 15px 0;
+}
+h2 span{    /*一定要加 h2*/
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+
+ul{
+    list-style-type: none;
+    overflow:hidden;
+}
+ul li{
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fff;
+    border-radius: 3px;
+    border-left: 5px solid #629a9c;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+ul li input[type='checkbox']{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 6px 5px 0 0;
+}
+ul li input[type='text']{
+    float: left;
+    width: 80%;
+    text-indent: 5px;
+    height: 26px;
+    line-height: 27px;
+    margin: 2px 0;
+    outline: none;
+    border: none;
+}
+ul li a{
+    float: right;
+    width:14px;
+    background-color: #ccc;
+    color: white;
+    border: 6px double #fff;
+    margin-top: 3px;
+    border-radius: 14px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 14px;
+}
+
+#donelist li{
+    background-color: #e6e6e6;
+    border-left: 5px solid #b3b3b3;
+}
+#donelist li input[type='text']{
+    background-color: #e6e6e6;
+}
+
+
+.footer{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 90px;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+.footer a{
+    color: #999999;
+    text-decoration: none;
+}
